@@ -5,3 +5,95 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+@media (max-width: 767px) {
+
+    body {
+     width: 100%;
+     margin: 0 auto;
+    }
+
+    .flex-container {
+     display: flex;
+    }
+
+    .nav-wrap {
+    justify-content: space-between;
+    width: 100%;
+    background: gray;
+    
+}
+
+
+.slack_logo {
+    width:20%;
+    height:20%;
+    
+}
+
+.menu_button {
+    /*max-height: 5%;*/
+    max-height: 7%;
+    max-width: 10%;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    padding:10%;
+    
+}
+
+.bigFont {
+    font-size: 120px;
+}
+
+.underBigFont {
+    font-size: 55px;
+    color: gray;
+}
+
+.lineBreak {
+    color: gray;
+    width: 80%;
+}
+
+.emailForm {
+    width: 100%;
+    height: 140px;
+    padding-top:60px;
+    padding-left: 5%;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    text-orientation: middle;
+    font-size: 70px;
+    color:gray;
+}
+.button {
+    width: 105%;
+    height:140px;
+    background-color: navy;
+    border: 2px solid navy;
+    border-radius: 20px;
+    text-orientation: middle;
+    font-size: 55px;
+    color: white;
+}
+#underText {
+    text-align: center;
+    font-size: 55px;
+}
+
+
+
+} /* max-width: 767px */
+
+
+
+
